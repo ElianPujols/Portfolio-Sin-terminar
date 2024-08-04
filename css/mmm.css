@@ -1,0 +1,29 @@
+.glass img {
+    height: 200px;
+    width: 200px;
+    border: 10px solid var(--color);
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .principal div {
+    margin-left: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+  }
+  .glass div p,
+  .glass div span {
+    color: var(--text-color);
+    font-size: 2em;
+    text-shadow: 0 0 10px var(--text-color);
+  }
+  .glass div h1 {
+    margin: 2px 0;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-left: -10px;
+    letter-spacing: 1px;
+    color: aqua;
+  }

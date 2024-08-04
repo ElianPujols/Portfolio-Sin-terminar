@@ -1,0 +1,36 @@
+@import url(css/Principal.css);
+:root {
+    --color: #081b29;
+    --color2: rgba(18, 218, 151, 0.685);
+    --text-color: #f1f1f1;
+    --fond: 2.8em;
+    --color3: #1f242d;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--color3);
+}
+
+main{
+    background-attachment: fixed;
+}
+.contenido_principal {
+    position: relative;
+    top: 1;
+    height: 400vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  section{
+    height: 100vh !important;
+    width: 100% !important;
+  }
+  
